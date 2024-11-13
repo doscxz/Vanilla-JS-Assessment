@@ -1,8 +1,8 @@
 const str1 = "А роза упала на лапу Азора"
 const str2 = "Привет"
 
-console.log(isPalindrome(str1));
-console.log(isPalindrome(str2));
+isPalindrome(str1)
+isPalindrome(str2)
 
 function isPalindrome(str) {
   const reverse = str.toLowerCase().split('')
@@ -17,10 +17,10 @@ function isPalindrome(str) {
     /**
      * здесь вынес функцию которая убирает пробелы, что бы не переписывать по 2 раза
      */
-    return true
+    console.log(true);
     // возвращаем true если строчки равны
   } else {
-    return false
+    console.log(false);
     // возвращаем false если строчки не равны
   }
 }
