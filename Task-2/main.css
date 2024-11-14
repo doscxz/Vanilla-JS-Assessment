@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  background-color: rgb(50, 50, 50);
+  color: rgb(220, 220, 220);
+
+  height: 100vh;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.addTask {
+  display: flex;
+  gap: 15px;
+
+  input {
+    padding: 15px 20px;
+
+    border: 2px solid rgb(112, 112, 112);
+    border-radius: 20px;
+
+    color: white;
+    background-color: rgb(39, 39, 39);
+  }
+
+  button {
+    padding: 15px 20px;
+
+    border: 2px solid rgb(115, 125, 142);
+    border-radius: 20px;
+
+    color: white;
+    background-color: rgb(50, 63, 88);
+
+    cursor: pointer;
+
+    &:hover {
+      border: 2px solid rgb(35, 45, 58);
+      background-color: rgb(70, 79, 121);
+
+    }
+
+    &:active {
+      box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.2);
+
+    }
+  }
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+
+  ul {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+
+    li {
+      font-size: 14pt;
+    }
+
+    div {
+      font-size: 22pt;
+      color: rgba(255, 0, 0, 0.736);
+      cursor: pointer;
+      height: fit-content;
+
+      &:hover {
+        text-shadow: 0em 0em 0.4em red;
+      }
+    }
+  }
+}
