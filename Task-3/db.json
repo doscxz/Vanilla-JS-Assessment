@@ -1,0 +1,54 @@
+{
+  "users": [
+    {
+      "name": "Max",
+      "email": "wegy@mail.ru",
+      "image": "https://i.pinimg.com/736x/43/e9/85/43e985f12b119d087d6c9a6345fdc831.jpg"
+    },
+    {
+      "name": "Marta",
+      "email": "ksdngiqo@mail.ru",
+      "image": "./image/2.jpg"
+    },
+    {
+      "name": "Ark",
+      "email": "sdguqioenje@mail.ru",
+      "image": "./image/3.jpg"
+    },
+    {
+      "name": "Mich",
+      "email": "walkgldsaegy@mail.ru",
+      "image": "./image/4.jpg"
+    },
+    {
+      "name": "Maxasfgas",
+      "email": "wegyolasgklo@mail.ru",
+      "image": "./image/5.jpg"
+    },
+    {
+      "name": "Jean",
+      "email": "wegsdhhgsdvsdy@mail.ru",
+      "image": "./image/6.jpg"
+    },
+    {
+      "name": "Lex",
+      "email": "wegylsdqwtqwt@mail.ru",
+      "image": "./image/7.jpg"
+    },
+    {
+      "name": "Michel",
+      "email": "wegypeflh@mail.ru",
+      "image": "./image/8.jpg"
+    },
+    {
+      "name": "jim",
+      "email": "wjkfjksdegy124@mail.ru",
+      "image": "./image/9.jpg"
+    },
+    {
+      "name": "Alex",
+      "email": "wegashdsy@mail.ru",
+      "image": "./image/10.jpg"
+    }
+  ]
+}
